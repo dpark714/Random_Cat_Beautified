@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.driuft.random_pets_starter'
-    compileSdk 32
+    namespace 'com.driuft.random_cats'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.driuft.random_pets_starter"
+        applicationId "com.driuft.random_cats"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
