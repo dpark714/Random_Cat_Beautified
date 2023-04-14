@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.RandomPetsStarter" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">#68485b</item>
+        <item name="colorPrimaryVariant">#68485b</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,5 +12,17 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/</item>
     </style>
+
+
+    <style name="TextAppearance.pet_name" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#6a2292</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
 </resources>
